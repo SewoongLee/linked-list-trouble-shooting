@@ -1,0 +1,529 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# ����ũ ����Ÿ���̽�, Thu Sep 30 23:45:56 2021
+�� ǥ��
+# ����
+
+# �ڵ�
+<D = $(patsubst %/,%,$(dir $<))
+# �ڵ�
+?F = $(notdir $?)
+# ����ũ����
+MAKEFLAGS = Rrqp
+# ȯ��
+VSCODE_LOG_NATIVE = false
+# �ڵ�
+?D = $(patsubst %/,%,$(dir $?))
+# �ڵ�
+@D = $(patsubst %/,%,$(dir $@))
+# ȯ��
+HOMEDRIVE = C:
+# �ڵ�
+@F = $(notdir $@)
+# �ڵ�
+^D = $(patsubst %/,%,$(dir $^))
+# ����ũ����
+CURDIR := c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_Link 
+edList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting
+# �⺻��
+SHELL := sh.exe
+# ȯ��
+WINDIR = C:\WINDOWS
+# ȯ��
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"3fb69aec03c19a172aefefd7885f5460.ko","_translationsConfigFile":"C:\\Users\\sewoo\\AppData\\Roaming\\Code\\clp\\3fb69aec03c19a172aefefd7885f5460.ko\\tcf.json","_cacheRoot":"C:\\Users\\sewoo\\AppData\\Roaming\\Code\\clp\\3fb69aec03c19a172aefefd7885f5460.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\sewoo\\AppData\\Roaming\\Code\\clp\\3fb69aec03c19a172aefefd7885f5460.ko\\7f6ab5485bbc008386c4386d08766667e155244e","_corruptedFile":"C:\\Users\\sewoo\\AppData\\Roaming\\Code\\clp\\3fb69aec03c19a172aefefd7885f5460.ko\\corrupted.info","_languagePackSupport":true}
+# ȯ��
+ONEDRIVE = C:\Users\sewoo\OneDrive
+# ȯ��
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# ����ũ���� (from `.objs/main.d', line 1)
+MAKEFILE_LIST :=  makefile uiuc/make/uiuc.mk .objs/main.d
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 32)
+STDLIBVERSION_GCC = 
+# ȯ��
+TMP = C:\Users\sewoo\AppData\Local\Temp
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 41)
+CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c $(ASANFLAGS) $(NO_COPY_ELISION)
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 20)
+CPP_TEST = $(wildcard tests/*.cpp) uiuc/catch/catchmain.cpp
+# ȯ��
+VSCODE_VERBOSE_LOGGING = true
+# ȯ��
+PROGRAMW6432 = C:\Program Files
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 12)
+OBJS = main.o 
+# ȯ��
+PROGRAMDATA = C:\ProgramData
+# ȯ��
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bb05ff58-967b-4468-a48a-b5d205729aca-sock
+# ȯ��
+VSCODE_CWD = C:\Users\sewoo\OneDrive\Git\coursera\Data Proficiency\Linked List\upload\ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a\LinkedList\linked-list-trouble-shooting
+# ȯ��
+PATH = C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NAT Service;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\sewoo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sewoo\AppData\Local\Programs\Python\Python39\;C:\Users\sewoo\AppData\Local\Microsoft\WindowsApps;C:\Users\sewoo\AppData\Local\GitHubDesktop\bin;C:\Users\sewoo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sewoo\.dotnet\tools;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GnuWin32\bin;C:\mingw64\bin;C:\Users\sewoo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sewoo\AppData\Local\Programs\Python\Python39\;C:\Users\sewoo\AppData\Local\Microsoft\WindowsApps;C:\Users\sewoo\AppData\Local\GitHubDesktop\bin;C:\Users\sewoo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sewoo\.dotnet\tools;
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 28)
+LD = $(CXX_WHICH)
+# ȯ��
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ȯ��
+PROCESSOR_ARCHITECTURE = x86
+# ȯ��
+USERPROFILE = C:\Users\sewoo
+# ȯ��
+ALLUSERSPROFILE = C:\ProgramData
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 36)
+STDLIBVERSION = $(STDLIBVERSION_GCC)
+# ����ũ���� (from `makefile', line 6)
+EXE_OBJ = main.o
+# ȯ��
+VSCODE_LOG_STACK = false
+# ȯ��
+NUMBER_OF_PROCESSORS = 8
+# ȯ��
+ELECTRON_RUN_AS_NODE = 1
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 42)
+LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -lpthread $(ASANFLAGS) $(NO_COPY_ELISION)
+# �⺻��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �ڵ�
+%F = $(notdir $%)
+# ȯ��
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_36820_HEDLCGZUMDUHURPA
+# ȯ��
+VSCODE_PIPE_LOGGING = true
+# ȯ��
+COMPUTERNAME = DESKTOP-17JHSDU
+# ȯ��
+PROGRAMFILES = C:\Program Files (x86)
+# ȯ��
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 8)
+ZIP_FILE = LinkedList_submission.zip
+# ȯ��
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 24)
+CXX_CLANG = clang++
+# ȯ��
+USERNAME = sewoo
+# ȯ��
+PUBLIC = C:\Users\Public
+# ȯ��
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# ȯ��
+VSCODE_CODE_CACHE_PATH = C:\Users\sewoo\AppData\Roaming\Code\CachedData\7f6ab5485bbc008386c4386d08766667e155244e
+# ȯ��
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ȯ��
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ȯ��
+LOGONSERVER = \\DESKTOP-17JHSDU
+# ȯ��
+ONEDRIVECONSUMER = C:\Users\sewoo\OneDrive
+# ȯ��
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ȯ��
+USERDOMAIN = DESKTOP-17JHSDU
+# ����ũ���� (from `makefile', line 3)
+TEST = test
+# �⺻��
+MAKE = $(MAKE_COMMAND)
+# �⺻��
+MAKECMDGOALS := all
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 9)
+COLLECTED_FILES = LinkedListExercises.h
+# �⺻��
+MAKE_VERSION := 3.81
+# ����ũ����
+.DEFAULT_GOAL := main
+# ȯ��
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �ڵ�
+%D = $(patsubst %/,%,$(dir $%))
+# ȯ��
+LOCALAPPDATA = C:\Users\sewoo\AppData\Local
+# ȯ��
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �⺻��
+MAKE_COMMAND := make.exe
+# ȯ��
+PROCESSOR_ARCHITEW6432 = AMD64
+# �⺻��
+.VARIABLES := 
+# �ڵ�
+*F = $(notdir $*)
+# ȯ��
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+# ȯ��
+OS = Windows_NT
+# ȯ��
+VSCODE_IPC_HOOK = \\.\pipe\a41e068cb805e5f71cf03b0f8565c45f-1.60.2-main-sock
+# ȯ��
+HOMEPATH = \Users\sewoo
+# ȯ��
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ȯ��
+PROMPT = $P$G
+# ȯ��
+MFLAGS = -Rrqp
+# �ڵ�
+*D = $(patsubst %/,%,$(dir $*))
+# ȯ��
+SYSTEMROOT = C:\WINDOWS
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 15)
+OBJS_DIR = .objs
+# �ڵ 
+�
++D = $(patsubst %/,%,$(dir $+))
+# �ڵ�
++F = $(notdir $+)
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 26)
+CXX_WHICH = $(CXX_GCC)
+# ȯ��
+APPDATA = C:\Users\sewoo\AppData\Roaming
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 25)
+CXX_GCC = g++
+# ȯ��
+TEMP = C:\Users\sewoo\AppData\Local\Temp
+# ȯ��
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 30)
+STDVERSION = -std=c++14 
+# �⺻��
+MAKEFILES := 
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 38)
+WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
+# �ڵ�
+<F = $(notdir $<)
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 31)
+STDLIBVERSION_CLANG = -stdlib=libc++ 
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 27)
+CXX = $(CXX_WHICH)
+# ȯ��
+LC_ALL = C
+# �ڵ�
+^F = $(notdir $^)
+# �⺻��
+SUFFIXES := 
+# ȯ��
+SYSTEMDRIVE = C:
+# ȯ��
+SESSIONNAME = Console
+# ȯ��
+PROCESSOR_REVISION = 5e03
+# ����ũ���� (from `uiuc/make/uiuc.mk', line 21)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# ȯ 
+��
+MAKELEVEL := 0
+# ����ũ���� (from `makefile', line 2)
+EXE = main
+# ȯ��
+LANG = C
+# ȯ��
+PROCESSOR_LEVEL = 6
+# ȯ��
+VSCODE_PID = 36820
+# ȯ��
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-17JHSDU
+# variable set hash-table stats:
+# Load=108/1024=11%, Rehash=0, Collisions=25/176=14%
+
+# Pattern-specific Variable Values
+
+# ������ ���� ���� ������ �����ϴ�.
+
+# ���丮
+
+# C:\Users\sewoo\AppData\Local\GitHubDesktop\bin (Ű C:/Users/sewoo/AppData/Local/GitHubDesktop/bin, ����ð� 1633011962): 4 ����, 0�� �Ұ���.
+# .objs/uiuc/catch: stat�� �� �� �������ϴ�.
+# .objs/uiuc: stat�� �� �� �������ϴ�.
+# C:\Users\sewoo\AppData\Local\Programs\Python\Python39\ (Ű C:/Users/sewoo/AppData/Local/Programs/Python/Python39/, ����ð� 1607871614): 18 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Razer\ChromaBroadcast\bin (Ű C:/Program Files (x86)/Razer/ChromaBroadcast/bin, ����ð� 1631458715): 5 ����, 0�� �Ұ���.
+# C:\Users\sewoo\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/sewoo/AppData/Local/Microsoft/WindowsApps, ����ð� 1631782968): 12 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Razer Chroma SDK\bin (Ű C:/Program Files (x86)/Razer Chroma SDK/bin, ����ð� 1631795195): 208 ����, 0�� �Ұ���.
+# C:\Users\sewoo\AppData\Local\Programs\Python\Python39\Scripts\ (Ű C:/Users/sewoo/AppData/Local/Programs/Python/Python39/Scripts/, ����ð� 1607871618): 7 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (Ű C:/WINDOWS/System32/WindowsPowerShell/v1.0/, ����ð� 1603551952): 32 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\Wbem (Ű C:/WINDOWS/System32/Wbem, ����ð� 1631941907): 155 ����, 0�� �Ұ���.
+# . (Ű c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting, ����ð� 1633013143): 15 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (Ű C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, ����ð� 1593322596): 10 ����, 0�� �Ұ���.
+# C:\Program Files\dotnet\ (Ű C:/Program Files/dotnet/, ����ð� 1607958474): 10 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1631944358): 5 ����, 0�� �Ұ���.
+# C:\WINDOWS\System32\OpenSSH\: stat�� �� �� �������ϴ�.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (Ű C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����ð� 1610792375): 5 ����, 0�� �Ұ���.
+# C:\mingw64\bin (Ű C:/mingw64/bin, ����ð� 1632625721): 58 ����, 0�� �Ұ���.
+# .objs (Ű c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting/.objs, ����ð� 1633012309): 4 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\NAT Service (Ű C:/Program Files (x86)/NAT Service, ����ð� 1616851840): 6 ����, 0�� �Ұ���.
+# C:\WINDOWS (Ű C:/WINDOWS, ����ð� 1632653955): 119 ����, 0�� �Ұ���.
+# C:\Program Files\Razer\ChromaBroadcast\bin (Ű C:/Program Files/Razer/ChromaBroadcast/bin, ����ð� 1631458715): 5 ����, 0�� �Ұ���.
+# C:\Program Files\Razer Chroma SDK\bin (Ű C:/Program Files/Razer Chroma SDK/bin, ����ð� 1631458703): 4 ����, 0�� �Ұ���.
+# C:\Users\sewoo\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/sewoo/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1633009938): 4 ����, 0�� �Ұ���.
+# C:\WINDOWS\system32 (Ű C:/WINDOWS/system32, ����ð� 1632654373): 3058 ����, 0�� �Ұ���.
+# C:\Users\sewoo\.dotnet\tools: stat�� �� �� �������ϴ�.
+# .objs/tests: stat�� �� �� �������ϴ�.
+# tests (Ű c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting/tests, ����ð� 1572895524): 3 ����, 0�� �Ұ���.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (Ű C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, ����ð� 1593321896): 5 ����, 0�� �Ұ���.
+# C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\Wi 
+ndowsApps: stat�� �� �� �������ϴ�.
+
+# 3752 ����, 0�� impossibilities in 29 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 68��° ��):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+# 1���� ������ ��Ģ, 0 (0.0%) �͹̳�.
+
+# ����
+
+.objs/main.o: main.cpp main.cpp LinkedList.h LinkedListExercises.h | .objs
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������/���� ���� ����: `main'
+#  ������ ���� 2021-09-30 23:31:49
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 68��° ��):
+	$(CXX) $(CXXFLAGS) $< -o $@
+	
+
+all: main test
+#  ���� Ÿ�� (.PHONY�� ��������).
+#  ������ Ÿ��.
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ŵ� �ʿ䰡 ���� (-q ������).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+LinkedList.h:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2019-11-05 04:25:24
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all tidy clean zip
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+.DEFAULT:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+zip:
+#  ���� Ÿ�� (.PHONY�� ��������).
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 94��° ��):
+	@echo "!!! Preparing submission zip with student code..."
+	@echo "!!! Make sure you have already tried compiling and testing your code"
+	@echo "!!! thoroughly before submitting the zip on Coursera!"
+	@echo ""
+	@echo "Removing any previous version of zip file..."
+	rm -rf $(ZIP_FILE)
+	@echo "Creating new file..."
+	zip $(ZIP_FILE) $(COLLECTED_FILES)
+	@echo "Created zip file: " $(ZIP_FILE)
+	
+
+# Ÿ���� �ƴ�:
+.objs/uiuc/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: .objs/tests/week1_tests.o .objs/uiuc/catch/catchmain.o
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 72��° ��):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the test suite program: " $(TEST)
+	@echo $(ASANWARNING)
+	
+
+# Ÿ���� �ƴ�:
+makefile:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2019-11-05 04:25:24
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.objs:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ ���� 2021-09-30 23:31:49
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 62��° ��):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/uiuc
+	@mkdir -p $(OBJS_DIR)/uiuc/catch
+	@mkdir -p $(OBJS_DIR)/tests
+	
+
+# Ÿ���� �ƴ�:
+main.cpp:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2019-11-05 04:25:24
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+uiuc/make/uiuc.mk:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2019-11-05 04:25:24
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.SUFFIXES:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+clean:
+#  ���� Ÿ�� (.PHONY�� ��������).
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 88��° ��):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM)
+	
+
+# Ÿ���� �ƴ�:
+.objs/uiuc/catch/catchmain.o:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+LinkedListExercises.h:
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2019-11-05 04:25:24
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tidy: clean
+#  ���� Ÿ�� (.PHONY�� ��������).
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 91��° ��):
+	rm -rf doc
+	
+
+# Ÿ���� �ƴ�:
+.objs/tests/week1_tests.o:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+.objs/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ ���� 2021-09-30 23:31:49
+#  ������ ���ŵǾ����ϴ�.
+#  ���������� ���ŵ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+main: .objs/main.o
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ������/���� ���� ����: `'
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ŵ� �ʿ䰡 ���� (-q ������).
+# �ڵ�
+# @ := main
+# �ڵ�
+# % := 
+# �ڵ�
+# * := 
+# �ڵ�
+# + := .objs/main.o
+# �ڵ�
+# | := 
+# �ڵ�
+# < := .objs/main.o
+# �ڵ�
+# ^ := .objs/main.o
+# �ڵ�
+# ? := .objs/main.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/24=21%
+#  ������ ���ɾ� (`uiuc/make/uiuc.mk'����, 51��° ��):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the main executable program file for the project: " $(EXE)
+ 
+	@echo " (Make sure you try \"make test\" too!)"
+	@echo $(ASANWARNING)
+	
+
+# Ÿ���� �ƴ�:
+.objs/tests/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.objs/uiuc/catch/*.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+# 
+  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=22/1024=2%, Rehash=0, Collisions=0/59=0%
+# VPATH Ž�� ���
+
+# `vpath' Ž�� ��ΰ� ����.
+
+# �Ϲ����� (`VPATH' ����) Ž�� ��ΰ� ����.
+
+# # of strings in strcache: 6
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4004 / max = 4004 / min = 4004 / avg = 4004
+
+# ����ũ ����Ÿ ���̽� ��ħ, 
+ Thu Sep 30 23:45:56 2021
+����
+ 

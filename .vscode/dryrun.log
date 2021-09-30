@@ -1,0 +1,15 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting'
+mkdir -p .objs
+mkdir -p .objs/uiuc
+mkdir -p .objs/uiuc/catch
+mkdir -p .objs/tests
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c   main.cpp -o .objs/main.o
+g++ .objs/main.o  -std=c++14   -lpthread   -o main
+echo
+echo " Built the main executable program file for the project: " main
+echo " (Make sure you try \"make test\" too!)"
+echo 
+make.exe: Leaving directory `c:/Users/sewoo/OneDrive/Git/coursera/Data Proficiency/Linked List/upload/ezGj1X-JSZyxo9V_iRmcqQ_f13e73bed9bd4776aa66758449fdce5c_LinkedList_starter_files_20191104a/LinkedList/linked-list-trouble-shooting'
+ 
